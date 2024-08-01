@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     textElement.addEventListener('click', () => {
         // Change background and text when clicked
-        document.body.style.backgroundImage = 'url("assets/monkey.gif")';
+        document.body.style.backgroundImage = 'url("../assets/monkey.gif")';
         textElement.textContent = "how it feels when sick toadz is whole.";
         textElement.style.cursor = 'default';
         

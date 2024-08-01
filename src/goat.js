@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         goatScream.currentTime = 0;
         goatScream.play();
         // yummers...
-        document.body.style.backgroundImage = 'url("assets/yummers.gif")';
+        document.body.style.backgroundImage = 'url("../assets/yummers.gif")';
         document.body.style.backgroundRepeat = 'no-repeat';
         document.body.style.backgroundSize = 'cover';
         document.body.style.backgroundPosition = 'center';
