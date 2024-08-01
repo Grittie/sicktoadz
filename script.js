@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const textElement = document.getElementById('text');
     const audio = document.getElementById('audio');
+    const redirectHome = document.getElementById('hidden');
     
     textElement.addEventListener('click', () => {
         // Change background and text when clicked
@@ -16,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.backgroundImage = 'none';
             document.body.style.backgroundColor = 'black';
             textElement.textContent = "we are so back.";
+            
+            redirectHome.style.display = 'flex';
+            redirectHome.style.animation = 'fadeIn 3s';
         });
     });
 });

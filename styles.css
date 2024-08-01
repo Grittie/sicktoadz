@@ -1,4 +1,4 @@
-body {
+#body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -23,3 +23,27 @@ body {
     line-height: 1.5;
     font-weight: bold;
 }
+
+.icon {
+    background: url("https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg");
+    height: 15px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+}
+
+#hidden {
+    display: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+a:hover {
+    cursor: help;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
